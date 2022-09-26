@@ -597,6 +597,8 @@ GameObject:
   m_Component:
   - component: {fileID: 457218906}
   - component: {fileID: 457218907}
+  - component: {fileID: 457218909}
+  - component: {fileID: 457218908}
   m_Layer: 0
   m_Name: Seed
   m_TagString: Untagged
@@ -671,6 +673,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &457218908
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457218905}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!114 &457218909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457218905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15ee124c778ec84782c000ae0911a26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCollectible: 1
+  collectibleValue: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,8 +1107,8 @@ GameObject:
   - component: {fileID: 1144870860}
   - component: {fileID: 1144870859}
   m_Layer: 0
-  m_Name: Mushi_Idle_0
-  m_TagString: Untagged
+  m_Name: Mushi
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
