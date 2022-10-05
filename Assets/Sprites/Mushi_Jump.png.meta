@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b0e4c1e6b5a50444ae08d19bc389fa9
-      internalID: -1791731011
+      spriteID: e3f5d9ba8c325744bae9fc2e304b4436
+      internalID: -418198502
       vertices: []
       indices: 
       edges: []
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d74e9e8edc474a42bb63171e417c1d0
-      internalID: -2145857566
+      spriteID: 9e0f4a91c27213f419b6904627559bf4
+      internalID: -1309374506
       vertices: []
       indices: 
       edges: []
@@ -173,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e42406eabc30d584eb4f8f881c0fc15d
-      internalID: -748679238
+      spriteID: cacd969c8098c2a488271726460629ec
+      internalID: 1817871064
       vertices: []
       indices: 
       edges: []
@@ -194,29 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2e509d0273b70840979baa68538b62e
-      internalID: 73371185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mushi_Jump_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5301a967a08b48f478302bb3cd132966
-      internalID: 502982468
+      spriteID: 6d40e7a37c5e8a04881379edc8115d37
+      internalID: -1459274267
       vertices: []
       indices: 
       edges: []
@@ -232,11 +211,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mushi_Jump_3: 73371185
-      Mushi_Jump_2: -748679238
-      Mushi_Jump_1: -2145857566
-      Mushi_Jump_4: 502982468
-      Mushi_Jump_0: -1791731011
+      Mushi_Jump_3: -1459274267
+      Mushi_Jump_2: 1817871064
+      Mushi_Jump_1: -1309374506
+      Mushi_Jump_0: -418198502
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
