@@ -1,4 +1,4 @@
-[SPEAKERSPRITE=]Oh man there's no sprite right now or name!
-[NAME=The Professor]Why hello there! Now i have a name!
-[NAME=Chibi][SPEAKERSPRITE=Chibi]This is a test script to make sure your dialogue is working!
-[NAME=Knight][SPEAKERSPRITE=Knight]You can even change text !
+[NAME=Mushi][SPEAKERSPRITE=Mushi]Elder! Elder! The curse is spreading more!
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]Mushi come here. I must tell you something.
+[NAME=Mushi][SPEAKERSPRITE=Mushi]What is it Elder?
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]You must go and collect the seeds of life.
