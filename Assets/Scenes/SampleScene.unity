@@ -798,8 +798,8 @@ MonoBehaviour:
   collider: {fileID: 318187167}
   projectile: {fileID: 230175062770184976, guid: 7d442cac6aa1822448cf8dae0e9b7fc8, type: 3}
   direction: {x: 1, y: 0}
-  force: 100
-  duration: 10
+  force: 500
+  duration: 5
   shootPosition: {fileID: 1144870861}
   flipWeapon: 0
 --- !u!61 &318187167
