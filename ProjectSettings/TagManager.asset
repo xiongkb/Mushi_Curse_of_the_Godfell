@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Collectable
   - Platform
+  - Projectile
+  - Weapon
+  - Enemy
   layers:
   - Default
   - TransparentFX
