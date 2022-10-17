@@ -52,7 +52,7 @@ TagManager:
   - name: Main ground
     uniqueID: 1401942947
     locked: 0
-  - name: Player/NPCs
+  - name: Player
     uniqueID: 2892004231
     locked: 0
   - name: Foreground
