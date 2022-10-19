@@ -2426,7 +2426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363489477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -3.1, y: -2.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5801,6 +5801,8 @@ GameObject:
   - component: {fileID: 2048048892}
   - component: {fileID: 2048048891}
   - component: {fileID: 2048048890}
+  - component: {fileID: 2048048894}
+  - component: {fileID: 2048048895}
   m_Layer: 0
   m_Name: Lesser_Enemy
   m_TagString: Enemy
@@ -5835,7 +5837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c259f5eb5ac2414a82aa059e05bb479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 0
+  currentHealth: 5
   maxHealth: 5
   sprite: {fileID: 2048048893}
   killCountManager: {fileID: 0}
@@ -5943,6 +5945,45 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2048048894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048048888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec008724446ac6b49bec57fccf297e03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  usePlayerStealth: 0
+  isVisible: 0
+  playerCollidePauseDuration: 0
+  maxChaseDistance: 0
+  EnemyReturnSpeed: 0
+  returnPosition: {x: 0, y: 0, z: 0}
+  state: 1
+--- !u!95 &2048048895
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048048888}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!224 &2087509232 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 694469586231803011, guid: 3ae135b59d27a5443867c391a712c171, type: 3}
