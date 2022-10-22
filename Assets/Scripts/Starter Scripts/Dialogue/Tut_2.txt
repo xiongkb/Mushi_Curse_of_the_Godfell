@@ -1,0 +1,3 @@
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]Before you continue, I just want to warn you.
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]Do you see the leaf that has been cursed behind me? It will hurt if you touch it.
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]You can cleanse it with you ranged magic and it will return to its original form.

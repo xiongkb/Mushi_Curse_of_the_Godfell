@@ -1,4 +1,0 @@
-[NAME=Mushi][SPEAKERSPRITE=Mushi]Elder! Elder! The curse is spreading more!
-[NAME=Elder][SPEAKERSPRITE=Elder NPC]Mushi come here. I must tell you something.
-[NAME=Mushi][SPEAKERSPRITE=Mushi]What is it Elder?
-[NAME=Elder][SPEAKERSPRITE=Elder NPC]You must go and collect the seeds of life.

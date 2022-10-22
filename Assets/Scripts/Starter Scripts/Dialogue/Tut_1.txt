@@ -1,0 +1,8 @@
+[NAME=Mushi][SPEAKERSPRITE=Mushi]Elder! Elder! The curse is spreading more!
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]Mushi come here. I must tell you something.
+[NAME=Mushi][SPEAKERSPRITE=Mushi]What is it Elder?
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]You must go and collect the seeds of life.
+[NAME=Mushi][SPEAKERSPRITE=Mushi]What is that?
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]They are magical seeds that can save the forest. Collect them and quell the regrets of the Godfell.
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]There is one just behind me. Be careful on the way.
+[NAME=Mushi][SPEAKERSPRITE=Mushi]Okay.
