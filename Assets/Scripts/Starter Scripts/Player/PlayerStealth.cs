@@ -43,7 +43,7 @@ public class PlayerStealth : MonoBehaviour
             {
                 if (useGSMFade)
                 {
-                    GetComponent<PlayerMovement>().TimeToDie();
+                    // GetComponent<PlayerMovement>().TimeToDie();
                 }
                 else
                 {
