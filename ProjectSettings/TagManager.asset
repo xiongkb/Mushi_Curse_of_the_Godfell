@@ -10,6 +10,7 @@ TagManager:
   - Weapon
   - Enemy
   - Cover
+  - SceneManager
   layers:
   - Default
   - TransparentFX
