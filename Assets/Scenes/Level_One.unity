@@ -2606,7 +2606,7 @@ GameObject:
   - component: {fileID: 519420033}
   - component: {fileID: 519420035}
   - component: {fileID: 519420034}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -13004,15 +13004,15 @@ RectTransform:
   m_GameObject: {fileID: 1643596124}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1808263079}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 135.60004, y: -126.600006}
+  m_AnchoredPosition: {x: 176.3, y: -150.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1643596126
@@ -15911,8 +15911,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1643596125}
   - {fileID: 6575963733155680488}
+  - {fileID: 1643596125}
   - {fileID: 2087509232}
   - {fileID: 85202717}
   - {fileID: 965006868318026295}
@@ -19930,16 +19930,16 @@ RectTransform:
   m_GameObject: {fileID: 6575963733155680407}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.9, y: 1.9, z: 0}
+  m_LocalScale: {x: 2.3, y: 2.3, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1646078574}
   m_Father: {fileID: 1808263079}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -806.1, y: 408.1}
+  m_AnchoredPosition: {x: -761.9, y: 385.6}
   m_SizeDelta: {x: 64, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6575963733155680489
