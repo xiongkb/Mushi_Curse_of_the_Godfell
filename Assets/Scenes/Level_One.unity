@@ -963,7 +963,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174465574}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 15.21, y: -1.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2644,6 +2644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 812256145}
+  - component: {fileID: 812256146}
   m_Layer: 0
   m_Name: Tree_1
   m_TagString: Untagged
@@ -2670,6 +2671,22 @@ Transform:
   m_Father: {fileID: 174465575}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &812256146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812256144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7837e535e135dad418074593fc7bb7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceX: 65
+  distanceY: 0
+  smoothingX: 1
+  smoothingY: 1
 --- !u!4 &909046262 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1318210903452219194, guid: 9e6f285c3d747654dbed72f221eca0c7, type: 3}
@@ -3449,6 +3466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1164856278}
+  - component: {fileID: 1164856279}
   m_Layer: 0
   m_Name: Small_Tree
   m_TagString: Untagged
@@ -3475,6 +3493,22 @@ Transform:
   m_Father: {fileID: 174465575}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1164856279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164856277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7837e535e135dad418074593fc7bb7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceX: 10
+  distanceY: 0
+  smoothingX: 1
+  smoothingY: 1
 --- !u!1 &1165072244
 GameObject:
   m_ObjectHideFlags: 0
@@ -7492,6 +7526,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1462265946}
+  - component: {fileID: 1462265947}
   m_Layer: 0
   m_Name: Tree_2
   m_TagString: Untagged
@@ -7518,6 +7553,22 @@ Transform:
   m_Father: {fileID: 174465575}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1462265947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462265945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7837e535e135dad418074593fc7bb7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceX: 25
+  distanceY: 0
+  smoothingX: 1
+  smoothingY: 1
 --- !u!1 &1513599117
 GameObject:
   m_ObjectHideFlags: 0
@@ -14389,6 +14440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2074430905}
+  - component: {fileID: 2074430906}
   m_Layer: 0
   m_Name: Bushes
   m_TagString: Untagged
@@ -14415,6 +14467,22 @@ Transform:
   m_Father: {fileID: 174465575}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2074430906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074430904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7837e535e135dad418074593fc7bb7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceX: 45
+  distanceY: 0
+  smoothingX: 1
+  smoothingY: 1
 --- !u!224 &2087509232 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 694469586231803011, guid: 3ae135b59d27a5443867c391a712c171, type: 3}
