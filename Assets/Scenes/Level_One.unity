@@ -24198,7 +24198,7 @@ ParticleSystem:
     orbitalX:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: -0.3
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -24251,7 +24251,7 @@ ParticleSystem:
     orbitalY:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.16
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -24304,7 +24304,7 @@ ParticleSystem:
     orbitalZ:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.96
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -27316,7 +27316,7 @@ GameObject:
   - component: {fileID: 9204960780308856809}
   - component: {fileID: 9204960780308856808}
   m_Layer: 0
-  m_Name: Leaf_Pointer
+  m_Name: Leaf_Pointer_Up_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
