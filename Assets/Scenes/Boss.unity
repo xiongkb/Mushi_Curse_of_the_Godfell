@@ -1253,7 +1253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &174465575
 Transform:
   m_ObjectHideFlags: 0
@@ -7330,6 +7330,7 @@ GameObject:
   - component: {fileID: 1752399581}
   - component: {fileID: 1752399582}
   - component: {fileID: 1752399583}
+  - component: {fileID: 1752399584}
   m_Layer: 0
   m_Name: Player_Parent
   m_TagString: Player
@@ -7586,6 +7587,31 @@ MonoBehaviour:
   isHidden: 0
   gameManager: {fileID: 1872293749}
   useGSMFade: 1
+--- !u!114 &1752399584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752399572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b244460e5b75a24d88b4d2e99041fbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WalkAudioClip: {fileID: 0}
+  LoopWalkAudio: 0
+  AttackAudioClip: {fileID: 0}
+  LoopAttackAudio: 0
+  DeathAudioClip: {fileID: 8300000, guid: 09697777237547c4e9e7031afab79483, type: 3}
+  LoopDeathAudio: 0
+  JumpAudioClip: {fileID: 8300000, guid: 60801d0d3194d174bb1a11a63ff1a50e, type: 3}
+  LoopJumpAudio: 0
+  VolumeLevel: 1
+  WalkSource: {fileID: 0}
+  AttackSource: {fileID: 0}
+  DeathSource: {fileID: 0}
+  JumpSource: {fileID: 0}
 --- !u!1 &1773548917
 GameObject:
   m_ObjectHideFlags: 0
