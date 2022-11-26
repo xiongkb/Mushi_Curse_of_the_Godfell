@@ -2294,7 +2294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4c6919a4cbf47542aaabe867d87e19b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxXBoundary: 500
+  MaxXBoundary: 25
   MinXBoundary: 0
   MaxYBoundary: 500
   MinYBoundary: -500
@@ -5717,7 +5717,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.4811321, g: 0.17021182, b: 0.41923615, a: 0.5254902}
+  m_Color: {r: 0.8113208, g: 0, b: 0.43770465, a: 0.5254902}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8142,7 +8142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752399572}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.47, y: 3.06, z: 0}
+  m_LocalPosition: {x: 20.46, y: -0.89, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11673,7 +11673,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2676311611264605506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.485, y: -0.031, z: 0}
+  m_LocalPosition: {x: -0.485, y: 0.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11993,7 +11993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2676311612206907088}
   m_Layer: 0
-  m_Name: Enemy_Chase_Parent
+  m_Name: Boss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12267,7 +12267,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 084723832c0a04048ace6ab99b0b2adb, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.3160377, b: 0.9459308, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -12350,7 +12350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alignmnent: 1
   weaponType: 0
-  damageValue: 1
+  damageValue: 3
   collider: {fileID: 2676311612938156413}
   projectile: {fileID: 0}
   direction: {x: 1, y: 0}
@@ -12393,7 +12393,7 @@ MonoBehaviour:
   killScoreValue: 2
   Healthbar: {fileID: 2676311611412037603}
   spawnCollectibleOnDeath: 1
-  collectible: {fileID: 7017090414438774780, guid: 433d7d965444fcc488e6156575cccaff, type: 3}
+  collectible: {fileID: 2133403652493513088, guid: d39ced1d9e9cbae4cb706043e5845695, type: 3}
 --- !u!114 &2676311612938156415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12406,11 +12406,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec008724446ac6b49bec57fccf297e03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usePlayerStealth: 1
+  usePlayerStealth: 0
   isVisible: 0
   playerCollidePauseDuration: 1
-  maxChaseDistance: 7
-  EnemyReturnSpeed: 2
+  maxChaseDistance: 3
+  EnemyReturnSpeed: 3
   returnPosition: {x: 0, y: 0, z: 0}
   state: 1
 --- !u!114 &6082922420276450145
