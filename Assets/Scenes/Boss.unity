@@ -13538,7 +13538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShootingRate: 0.5
-  projectile: {fileID: 7100902004474940152, guid: 4c7c78d3a3bd2134683319509f2bc777, type: 3}
+  projectile: {fileID: 7100902004474940152, guid: d21302273864a6448b4f4ca38e538d2b, type: 3}
 --- !u!212 &2676311612938156354
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13708,7 +13708,7 @@ MonoBehaviour:
   usePlayerStealth: 0
   isVisible: 0
   playerCollidePauseDuration: 1
-  maxChaseDistance: 15
+  maxChaseDistance: 20
   EnemyReturnSpeed: 0
   returnPosition: {x: 0, y: 0, z: 0}
   state: 1
