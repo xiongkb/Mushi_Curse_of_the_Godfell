@@ -25,7 +25,9 @@ public class ActivationTrigger : MonoBehaviour {
         {
             if (collision.CompareTag("Player"))
             {
-                displayed.SetActive(false);
+              // displayed.SetActive(false);
+              Destroy(displayed);
+              Destroy(gameObject);
             }
         }
         
