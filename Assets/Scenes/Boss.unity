@@ -1792,8 +1792,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1401942947
-  m_SortingLayer: 2
+  m_SortingLayerID: -1402963065
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 681ad91c9a2678548a7d17c3a0f9a18b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5312,9 +5312,10 @@ GameObject:
   - component: {fileID: 1449896579}
   - component: {fileID: 1449896578}
   - component: {fileID: 1449896582}
+  - component: {fileID: 1449896583}
   m_Layer: 7
   m_Name: Water
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5406,7 +5407,7 @@ SpriteRenderer:
   m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 353c7a953c14faf40addbdcbd71ede5b, type: 3}
-  m_Color: {r: 0.8113208, g: 0, b: 0.43770465, a: 0.5254902}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5254902}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5446,6 +5447,28 @@ MonoBehaviour:
   degreesPerSecond: 0
   amplitude: 0.2
   frequency: 1
+--- !u!114 &1449896583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449896577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c7682988a72634cb20f82fd18d89aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alignmnent: 2
+  weaponType: 0
+  damageValue: 999
+  collider: {fileID: 0}
+  projectile: {fileID: 0}
+  direction: {x: 1, y: 0}
+  force: 100
+  duration: 10
+  shootPosition: {fileID: 0}
+  flipWeapon: 0
 --- !u!1 &1485152131
 GameObject:
   m_ObjectHideFlags: 0
@@ -13145,7 +13168,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991658746}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.14, y: -7.46, z: 0}
+  m_LocalPosition: {x: -13.72, y: -7.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
