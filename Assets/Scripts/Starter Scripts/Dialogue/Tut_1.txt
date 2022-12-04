@@ -1,8 +1,8 @@
 [NAME=Mushi][SPEAKERSPRITE=Mushi]Elder! Elder! The curse is spreading more!
-[NAME=Elder][SPEAKERSPRITE=Elder NPC]Mushi, you are here. I must tell you something.
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]Mushi, you are finally here. I must tell you something.
 [NAME=Mushi][SPEAKERSPRITE=Mushi]What is it Elder?
-[NAME=Elder][SPEAKERSPRITE=Elder NPC]You must go and collect the seeds of life.
-[NAME=Mushi][SPEAKERSPRITE=Mushi]What is that?
-[NAME=Elder][SPEAKERSPRITE=Elder NPC]They are magical seeds that can save the forest. Collect them and quell the regrets of the Godfell.
-[NAME=Elder][SPEAKERSPRITE=Elder NPC]There is one just behind me. Be careful on the way.
-[NAME=Mushi][SPEAKERSPRITE=Mushi]Leave it to me Elder!
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]You have the power to quell the Godfell's Regret.
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]Cleanse it with your magic and the curses will lift.
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]Along the way, make sure to collect the seeds of life, like the one behind me.
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]Once the curse is gone, we can recover the forest with it.
+[NAME=Mushi][SPEAKERSPRITE=Mushi]Okay Elder, leave it to me!
