@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 343e6945b841140428a7dea508823e92
-      internalID: 890533990
+      spriteID: 6dfa4a86efb0a8047a98159c5e19f616
+      internalID: 1113913406
       vertices: []
       indices: 
       edges: []
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc4691dff19e01844bedde206720c161
-      internalID: 860088513
+      spriteID: 3800ae25d83db0b40af4e8c223e62a00
+      internalID: 1279057192
       vertices: []
       indices: 
       edges: []
@@ -169,8 +169,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jumping_Tut_0: 890533990
-      Jumping_Tut_1: 860088513
+      Jumping_Tut_0: 1113913406
+      Jumping_Tut_1: 1279057192
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
