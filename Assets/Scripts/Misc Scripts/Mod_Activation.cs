@@ -1,8 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActivationTrigger : MonoBehaviour {
+public class Mod_Activation : MonoBehaviour {
 
     [SerializeField] private GameObject displayed;
     public bool permanentActivation = true;
@@ -25,7 +25,9 @@ public class ActivationTrigger : MonoBehaviour {
         {
             if (collision.CompareTag("Player"))
             {
-              displayed.SetActive(false);
+              // displayed.SetActive(false);
+              Destroy(displayed);
+              Destroy(gameObject);
             }
         }
         
