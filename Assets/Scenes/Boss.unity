@@ -13537,7 +13537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec88b1fd9472c814a8ee43fa0520ee0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShootingRate: 0.5
+  ShootingRate: 1
   projectile: {fileID: 7100902004474940152, guid: d21302273864a6448b4f4ca38e538d2b, type: 3}
 --- !u!212 &2676311612938156354
 SpriteRenderer:
