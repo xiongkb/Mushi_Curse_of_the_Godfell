@@ -1,4 +1,4 @@
 [NAME=Elder][SPEAKERSPRITE=Elder NPC]Mushi, you've done well to get this far.
 [NAME=Elder][SPEAKERSPRITE=Elder NPC]Behind me is the curse of the godfell's lair.
-[NAME=Elder][SPEAKERSPRITE=Elder NPC]Once you drop down, you won't be abble to come back up until the curse is cleansed.
+[NAME=Elder][SPEAKERSPRITE=Elder NPC]Once you drop down, you won't be able to come back up until the curse is cleansed.
 [NAME=Elder][SPEAKERSPRITE=Elder NPC]We all believe in you. Take care.
