@@ -16112,8 +16112,8 @@ BuoyancyEffector2D:
   m_Density: 3
   m_LinearDrag: 5
   m_AngularDrag: 5
-  m_FlowAngle: 180
-  m_FlowMagnitude: 500
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
   m_FlowVariation: 0
 --- !u!61 &1449896579
 BoxCollider2D:
