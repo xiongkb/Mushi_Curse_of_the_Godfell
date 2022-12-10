@@ -354,7 +354,7 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator deathOccurance()
     {
-        if (gm != null && gsm != null)
+        if (gm != null && gsm != null && !PlayerAnimator.GetBool("isDead"))
         {
             PlayerAnimator.SetBool("isDead", true);
             disabled = true;
