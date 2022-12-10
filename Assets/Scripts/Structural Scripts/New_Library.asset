@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerLibrary:
   - name: Mushi
-    sprite: {fileID: 1506581678, guid: 361899bbbe73de2428563440337a2b7a, type: 3}
+    sprite: {fileID: 21300000, guid: ee5e96a2f3c4de74ea85a3d86c478a01, type: 3}
   - name: Elder NPC
-    sprite: {fileID: -248189051, guid: 8b4a24f8c3b24cf46977e989b9568639, type: 3}
+    sprite: {fileID: 21300000, guid: 77c70b5fed80d094a88e543d2c44029a, type: 3}
