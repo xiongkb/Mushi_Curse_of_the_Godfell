@@ -6228,7 +6228,7 @@ BuoyancyEffector2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_SurfaceLevel: 0.3
-  m_Density: 3
+  m_Density: 2
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_FlowAngle: 0
