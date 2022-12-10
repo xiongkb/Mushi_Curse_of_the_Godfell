@@ -2073,7 +2073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 5
+  maxHealth: 3
   sprite: {fileID: 221010172}
   killCountManager: {fileID: 0}
   killScoreValue: 1
@@ -8121,7 +8121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 5
+  maxHealth: 3
   sprite: {fileID: 466575256}
   killCountManager: {fileID: 0}
   killScoreValue: 1
@@ -22346,8 +22346,8 @@ Tilemap:
   - first: {x: 33, y: 14, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileIndex: 18
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -22513,7 +22513,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 948a74b93a537bd4686a860a3b8a7bb3, type: 2}
   - m_RefCount: 19
     m_Data: {fileID: 11400000, guid: 1ea8bcf1a41121546b2071dcb28f0294, type: 2}
-  - m_RefCount: 13
+  - m_RefCount: 12
     m_Data: {fileID: 11400000, guid: b74c0ecafc3fea447adbf674a12c7d29, type: 2}
   - m_RefCount: 61
     m_Data: {fileID: 11400000, guid: b9522ab2f56aa2348a705c808ee30c2c, type: 2}
@@ -22541,20 +22541,20 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 37f891b10c9b0c84c9e8c9c5bf163f48, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 0db23c09c7397fa41af32ffbe208f27e, type: 2}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 4afb01d67466bc34886078f680897c75, type: 2}
   - m_RefCount: 8
     m_Data: {fileID: 11400000, guid: 3334264ad3a0c9243875b18147960fcc, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -1027472303, guid: 2765e08ffd21c7a43b526a373cfd95a4, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1305437349, guid: 9fd34062ed2051d42941c5322d2bc927, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1472413340, guid: 9fd34062ed2051d42941c5322d2bc927, type: 3}
   - m_RefCount: 19
     m_Data: {fileID: -1518659899, guid: 9fd34062ed2051d42941c5322d2bc927, type: 3}
-  - m_RefCount: 13
+  - m_RefCount: 12
     m_Data: {fileID: -1068073540, guid: 2765e08ffd21c7a43b526a373cfd95a4, type: 3}
   - m_RefCount: 61
     m_Data: {fileID: 260342764, guid: 563775578dce9694aa02f1a30b659617, type: 3}
@@ -63729,7 +63729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &965006868318026295
 RectTransform:
   m_ObjectHideFlags: 0
@@ -66523,7 +66523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 5
+  maxHealth: 3
   sprite: {fileID: 7029003409616683775}
   killCountManager: {fileID: 0}
   killScoreValue: 1
@@ -67493,7 +67493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 5
+  maxHealth: 3
   sprite: {fileID: 7029003410923301994}
   killCountManager: {fileID: 0}
   killScoreValue: 1
