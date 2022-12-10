@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.LowLevel;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(PlayerMovement))]
 public class PlayerHealth : MonoBehaviour
@@ -12,7 +13,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
 
     [Tooltip("The current health the player has")]
-    public int currentHealth;
+    public static int currentHealth = 20;
 
     [Tooltip("If you're using segmented health, this is gameObject that holds your health icons as its children")]
     public GameObject HealthIcons;
@@ -64,7 +65,11 @@ public class PlayerHealth : MonoBehaviour
                 HealthBar.GetComponent<Image>().type = Image.Type.Filled;
                 HealthBar.GetComponent<Image>().fillMethod = (int)Image.FillMethod.Horizontal;
                 HealthBar.GetComponent<Image>().fillOrigin = (int)Image.OriginHorizontal.Left;
-                currentHealth = maxHealth;
+
+                if (SceneManager.GetSceneByName("Level_One").isLoaded) {
+                    currentHealth = maxHealth;
+                }
+                
                 UpdateHealthBar();
             }
         }
